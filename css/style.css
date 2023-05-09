@@ -51,6 +51,9 @@ nav{
     text-align: center;
     margin-bottom: 20px;
 }
+#actualizarRecluta{
+    display: none;
+}
 
 
 

@@ -1,5 +1,30 @@
 {
-  "reclutas": [],
+  "reclutas": [
+    {
+      "nombre": "Fabian Esteban Becerra",
+      "edad": "17",
+      "telefono": "2221312",
+      "email": "fabestebece@gmail.com",
+      "direccion": "Manzana F casa 106",
+      "fechaNacimiento": "2023-05-17",
+      "numeroIdentificacion": "132134",
+      "fechaIngreso": "",
+      "idTeam": "1",
+      "id": 1
+    },
+    {
+      "nombre": "Santiango Vesga",
+      "edad": "17",
+      "telefono": "4365234632",
+      "email": "santiago@gmail.com",
+      "direccion": "Diagonal 8",
+      "fechaNacimiento": "2023-05-24",
+      "numeroIdentificacion": "13213443215",
+      "fechaIngreso": "2023-05-26",
+      "idTeam": "2",
+      "id": 2
+    }
+  ],
   "team": [],
   "skill": [],
   "moduloSkill": [],
