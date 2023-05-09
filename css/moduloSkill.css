@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.719) 0%, rgba(0, 0, 0, 0.726) 100%) ,url(../img/halconMilenario.webp);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.904) 0%, rgba(0, 0, 0, 0.788) 100%) ,url(../img/vader.avif);
     background-size: cover;
 }
 /* NAVBAR */
@@ -35,13 +35,6 @@ nav{
     transition: .5s;
 }
 
-.title-reclutas-registrados{
-    text-align: center;
-}
-.mandalorian img{
-    height: 500px;
-}
-
 /* FORM RECLUTAS */
 .form-reclutas{
     display: none;
@@ -51,6 +44,3 @@ nav{
     text-align: center;
     margin-bottom: 20px;
 }
-
-
-

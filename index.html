@@ -10,21 +10,106 @@
     <!-- JS -->
     <script src="js/jquery.js" defer></script>
     <script src="js/bootstrap/bootstrap.min.js" defer></script>
-    <script src="js/app.js" defer></script>
     <title>Prueba de Seleccion</title>
 </head>
 <body>
     <nav>
         <div class="logo">
-            <img src="img/logo.png">
+            <a href="index.html"><img src="img/logo.png"></a>
         </div>
         <div class="nav-menu">
-            <a href="">RECLUTAS</a>
-            <a href="">TEAM</a>
-            <a href="">SKILL</a>
-            <a href="">MODULO SKILL</a>
-            <a href="">RECLUTAS</a>
+            <a href="#" id="reclutas">RECLUTAS</a>
+            <a href="team.html" id="team">TEAM</a>
+            <a href="skill.html" id="skill">SKILL</a>
+            <a href="moduloSkill.html" id="moduloSkill">MODULO SKILL</a>
+            <a href="evaluacion.html" id="evaluacion">EVALUACION</a>
         </div>
     </nav>
+
+    <div class="form-reclutas m-5">
+        <div class="title-recluta">
+            <h1>Registrar Recluta</h1>
+        </div>
+        <form class="row g-3" id="frmData">
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label for="nombre">NOMBRE</label>
+                    <input type="text" class="form-control" id="nombre">    
+                </div>
+                <div class="col-md-2">
+                    <label for="edad">EDAD</label>
+                    <input type="text" class="form-control" id="edad">
+                </div>
+                <div class="col-md-4">
+                    <label for="telefono">TELEFONO</label>
+                    <input type="number" class="form-control" id="telefono">
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-5">
+                    <label for="email">EMAIL</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="col-md-4">
+                    <label for="direccion">DIRECCION</label>
+                    <input type="text" class="form-control" id="direccion">
+                </div>
+                <div class="col-md-3">
+                    <label for="fechaNacimiento">FECHA DE NACIMIENTO</label>
+                    <input type="date" class="form-control" id="fechaNacimiento">
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-4">
+                     <label for="numeroIdentificacion">NUMERO DE IDENTIFICACION</label>
+                     <input type="number" class="form-control" id="numeroIdentificacion">
+                 </div>
+                 <div class="col-md-4">
+                     <label for="fechaIngreso">FECHA DE INGRESO AL PROGRAMA</label>
+                     <input type="date" class="form-control" id="fechaIngreso">
+                 </div>
+                 <div class="col-md-4">
+                     <label for="idTeam">ID TEAM</label>
+                     <input type="number" class="form-control" id="idTeam">
+                 </div>
+            </div>
+            <div class="text-center col-12 mt-4">
+                <button id="guardarRecluta" class="btn btn-success">GUARDAR RECLUTA</button>
+            </div>
+        </form>
+    </div>
+    <div class="table-reclutas m-5" >
+        <div class="title-reclutas-registrados">
+            <h1>Reclutas Registrados</h1>
+            <div class="mandalorian">
+                <img src="img/mandalorian.png">
+            </div>
+        </div>
+        <div class="filtro">
+            <button></button>
+        </div>
+        <table class="table table-dark table-striped-columns">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>NOMBRE</th>
+                    <th>EDAD</th>
+                    <th>TELEFONO</th>
+                    <th>EMAIL</th>
+                    <th>DIRECCION</th>
+                    <th>FECHA NACIMIENTO</th>
+                    <th>NUMERO IDENTIFICACION</th>
+                    <th>FECHA INGRESO</th>
+                    <th>ID TEAM</th>
+                    <th>OPCIONES</th>
+                </tr>
+            </thead>
+            <tbody class="table-body-reclutas"> 
+                
+            </tbody>    
+        </table>
+    </div>
+
+    <script src="js/reclutas.js"></script>
 </body>
 </html>

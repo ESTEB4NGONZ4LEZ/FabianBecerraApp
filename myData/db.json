@@ -1,17 +1,7 @@
 {
-    "reclutas": [
-    
-    ],
-    "team": [
-
-    ],
-    "skill": [
-
-    ],
-    "moduloSkill":[
-
-    ],
-    "evaluacion":[
-        
-    ]
+  "reclutas": [],
+  "team": [],
+  "skill": [],
+  "moduloSkill": [],
+  "evaluacion": []
 }

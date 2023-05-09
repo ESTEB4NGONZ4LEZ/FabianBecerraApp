@@ -6,8 +6,7 @@
 }
 
 body{
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.719) 0%, rgba(0, 0, 0, 0.726) 100%) ,url(../img/halconMilenario.webp);
-    background-size: cover;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.904) 0%, rgba(0, 0, 0, 0.61) 100%) ,url(../img/stormtrooper.jpeg);
 }
 /* NAVBAR */
 nav{
@@ -33,24 +32,4 @@ nav{
     color: #fff;
     background-color: #000;
     transition: .5s;
-}
-
-.title-reclutas-registrados{
-    text-align: center;
-}
-.mandalorian img{
-    height: 500px;
-}
-
-/* FORM RECLUTAS */
-.form-reclutas{
-    display: none;
-}
-.title-recluta{
-    display: block;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-
-
+} 

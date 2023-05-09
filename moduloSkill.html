@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/moduloSkill.css">
+    <!-- JS -->
+    <script src="js/jquery.js" defer></script>
+    <script src="js/bootstrap/bootstrap.min.js" defer></script>
+    <title>Prueba de Seleccion</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png"></a>
+        </div>
+        <div class="nav-menu">
+            <a href="index.html" id="reclutas">RECLUTAS</a>
+            <a href="team.html" id="team">TEAM</a>
+            <a href="skill.html" id="skill">SKILL</a>
+            <a href="#" id="moduloSkill">MODULO SKILL</a>
+            <a href="evaluacion.html" id="evaluacion">EVALUACION</a>
+        </div>
+    </nav>
+
+    <div class="form-moduloSkill m-5">
+        <div class="title-moduloSkill">
+            <h1>Registrar Skill</h1>
+        </div>
+        <form class="row g-3 w-50" id="frmData">
+            <div class="row g-3">
+                <div class="col-md-12">
+                    <label for="nombre">NOMBRE</label>
+                    <input type="text" class="form-control" id="nombre">
+                </div>
+                <div class="col-md-12">
+                    <label for="idSkill">ID SKILL</label>
+                    <input type="number" class="form-control" id="idSkill">
+                </div>
+            </div>
+            <div class="text-center col-12 mt-4">
+                <button id="guardarModuloSkill" class="btn btn-success">GUARDAR SKILL</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="table-team m-5" >
+        <table class="table table-dark table-striped-columns">
+            <thead>
+                <tr>
+                    <th>ID</th> 
+                    <th>NOMBRE</th>
+                    <th>ID SKILL</th>
+                    <th>OPCIONES</th>
+                </tr>
+            </thead>
+            <tbody class="table-body-modulo-skill"> 
+                
+            </tbody>    
+        </table>
+    </div>
+    
+    <script src="js/moduloSkill.js"></script>
+</body>
+</html>
